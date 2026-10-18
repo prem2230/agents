@@ -1,4 +1,4 @@
-export const AVAILABLE_TOOLS = ["search_notes"] as const;
+export const AVAILABLE_TOOLS = ["search_notes", "add_numbers", "delegate_to_agent"] as const;
 
 export type AgentTool = (typeof AVAILABLE_TOOLS)[number];
 
